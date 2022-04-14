@@ -7,6 +7,13 @@ html{
 *::after {
   box-sizing: inherit;
 }
+body{
+margin: 0;
+}
+
+h1,h2,h3,h4{
+  margin: 0;
+}
 
 img {
     display: block;
@@ -14,10 +21,11 @@ img {
     height: auto;
   }
 
-body{
-background: green;
-}
 
-.mainText{
-    color: aqua;
+.container{
+  width: 480px;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px dashed #f44336;
 }
